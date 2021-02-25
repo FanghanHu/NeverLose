@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">NeverLose</string>
+    <string name="last_seen">Last seen:</string>
+    <string name="example_device">Example Device</string>
+    <string name="mac_address">Mac address:</string>
+    <string name="_05_7_2019_9_28pm">05/7/2019 9:28pm</string>
+    <string name="aa_bb_cc_dd">AA:BB:CC:DD</string>
+    <string name="unknown">unknown</string>
+    <string name="show_on_map">Show on map</string>
+    <string name="time">Time:</string>
+    <string name="todo">TODO</string>
+
+    <string name="locate_notification_title_template">Locate: %1$s</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="locate_notification_placeholder_text_template">You said %1$s and lorem ipsum dolor
+        sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum, velit vel semper
+        venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed turpis. Pellentesque
+        vitae metus elit, nec tincidunt tellus. Integer sed nisl sem, ullamcorper ornare lacus. Duis
+        ac mauris sed massa congue volutpat. Donec sed erat sit amet turpis viverra rhoncus sit amet
+        nec magna. Donec lacinia ligula at libero volutpat volutpat nec nec tortor.
+    </string>
+</resources>
