@@ -27,8 +27,8 @@ public class ConnectionReceiver extends BroadcastReceiver
         String action = intent.getAction();
         BluetoothDevice device = intent.getParcelableExtra(BluetoothDevice.EXTRA_DEVICE);
 
-        System.out.println("Address:" + device.getAddress());
-        System.out.println("Name:" + device.getName());
+        //System.out.println("Address:" + device.getAddress());
+        //System.out.println("Name:" + device.getName());
 
         AppDatabase db = Room.databaseBuilder(context, AppDatabase.class, "NeverLose").allowMainThreadQueries().build();
         Device target = db.deviceDAO().getDevice(device.getAddress());
