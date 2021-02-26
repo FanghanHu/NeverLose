@@ -2,7 +2,6 @@ package net.fanghanhu.neverlose;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
-import android.content.res.Resources;
 import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
