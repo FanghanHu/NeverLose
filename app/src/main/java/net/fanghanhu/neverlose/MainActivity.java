@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity
         if(ContextCompat.checkSelfPermission(getApplicationContext(), Manifest.permission.ACCESS_BACKGROUND_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             String notice1 = "This app uses your location data in the background when you connect or disconnect to a Bluetooth device, the data will be retained on your device and is not collected by us in any way. ";
 
-            String notice2 = "<span>By downloading or using the app, you agree to the NeverLose <a href='https://github.com/FanghanHu/NeverLose/blob/master/PrivacyPolicy.md'>Terms and Conditions</a> " +
+            String notice2 = "<span>By downloading or using the app, you agree to the NeverLose <a href='https://github.com/FanghanHu/NeverLose/blob/master/TermsAndConditions.md'>Terms and Conditions</a> " +
                     "and <a href='https://github.com/FanghanHu/NeverLose/blob/master/PrivacyPolicy.md'>Privacy Policy</a>.</span>";
 
 
